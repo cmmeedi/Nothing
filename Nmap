@@ -1,0 +1,15 @@
+Using Kali Linux open up the Terminal
+
+- Make note of your IP Address by typing in `ip a`
+    My ip came up as xxx.x.x.x you think i'd share that with you on here?
+      if you're having a hard time finding yours then look for the numbers in the purple text.
+      The orange text is your IPV6.  The purple is your IPV4.  You'll want to use the IPV4 for now
+
+- Just for funsies go ahead and ping your ip address.
+    You'll see that it's recieving bytes if it's working.  If it's not then maybe check your connections
+    and try it again.
+      Press the keys CTRL + C to exit the ping session
+
+- Now let's ping the entire network by using Nmap
+    type in the command `nmap -sP {insert IP address here}
+    
